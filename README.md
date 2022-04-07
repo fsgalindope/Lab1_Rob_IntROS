@@ -44,6 +44,15 @@ Ahora se le da el valor al mensaje en :
 ~~~
 velMsg.Linear.X = 1;
 ~~~
-Send(velPub,velMsg) publica el mensaje vel Msg sobre el topico especificado en velPub.
+Send() publica el mensaje vel Msg sobre el topico especificado en velPub.
+~~~
+send(velPub,velMsg);
+~~~
+
+
 #### Creación de subscriber
-Se crea un nuevo script en matlab donde se suscribe al topico de pose de la simulacion de turtle1 
+Se crea un nuevo script en matlab donde se suscribe al topico de pose de la simulacion de turtle1.
+~~~
+CODIGO
+~~~
+rossubscriber() permite crear un suscriptor ROS para recibir mensajes en la red ROS. El objeto creado recibe el nombre del topico y el tipo de mensaje.
