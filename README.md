@@ -55,4 +55,6 @@ Se crea un nuevo script en matlab donde se suscribe al topico de pose de la simu
 ~~~
 CODIGO
 ~~~
-rossubscriber() permite crear un suscriptor ROS para recibir mensajes en la red ROS. El objeto creado recibe el nombre del topico y el tipo de mensaje.
+`rossubscriber()` permite crear un suscriptor ROS para recibir mensajes en la red ROS. El objeto creado recibe el nombre del topico y el tipo de mensaje.
+pause(1)se pausa para recibir el mensaje.
+
