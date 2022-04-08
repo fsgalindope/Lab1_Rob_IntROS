@@ -148,8 +148,9 @@ En la siguiente imagen se puede observar la posición de la tortuga después de 
 ![Fig.3 image3.v](https://github.com/fsgalindope/Lab1_Rob_IntROS/blob/main/recursos/image3.png)
 ### Utilizando Python
 
+Al hacer la prueba del script `myTeleopKey.py` se logró el resultado como lo muestra la siguiente imagen.
 
-
+![Fig.4 resultPython.v](https://github.com/fsgalindope/Lab1_Rob_IntROS/blob/main/recursos/resultPython.png)
 
 ## Análisis
 ### Conexión de ROS con Matlab
