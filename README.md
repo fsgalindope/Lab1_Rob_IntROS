@@ -99,6 +99,8 @@ Por ultimo se utiliza `rosshutdown` se cierra el nodo global y, si se está ejec
 ## Resultados:
 ### Conexión de ROS con Matlab
 ![Fig.1 image1.v](https://github.com/fsgalindope/Lab1_Rob_IntROS/blob/main/recursos/image1.png)
+![Fig.2 image2.v](https://github.com/fsgalindope/Lab1_Rob_IntROS/blob/main/recursos/image2.png)
+![Fig.3 image3.v](https://github.com/fsgalindope/Lab1_Rob_IntROS/blob/main/recursos/image3.png)
 ### Utilizando Python
 
 
