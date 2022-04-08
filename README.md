@@ -110,7 +110,7 @@ Se usaron los tópicos `turtle1/cmd_vel`, `turtle1/teleport_absolute`, `turtle1/
 
 Las funciones que comprende el script son `getkey()`, `toCenter()`, `giro180()` y `pubVel()`. Estas son usadas en el main para lograr el objetivo de la siguiente manera:
 
-```
+```python
 if __name__ == "__main__":
     while 1:
         letter = getkey()
@@ -136,6 +136,8 @@ if __name__ == "__main__":
             break
 ```
 
+Se modificó también el archivo `CMakeLists.txt` para incluir en el script de python. Posteriormente, se hizo `catkin build` al workspace para que se compilen los cambios.
+
 ## Resultados:
 ### Conexión de ROS con Matlab
 Tras correr el primer script `conexionMatlab.m` Se obtiene lo que se ve en la imagen1 ,donde se puede ver que la tortuga realiza el movimiento en X gracias a que después de la conexion en matlab se cambia el valor de la velocidad lineal en X.
@@ -145,6 +147,9 @@ En la siguiente imagen se ve como se obtiene información del tópico `turtle1/p
 En la siguiente imagen se puede observar la posición de la tortuga después de correr el tercer script. Donde primero se cambio la posición (X,Y,Theta) y después se cambio las velocidades(AngularVelocity, LinearVelocity). 
 ![Fig.3 image3.v](https://github.com/fsgalindope/Lab1_Rob_IntROS/blob/main/recursos/image3.png)
 ### Utilizando Python
+
+
+
 
 ## Análisis
 ### Conexión de ROS con Matlab
