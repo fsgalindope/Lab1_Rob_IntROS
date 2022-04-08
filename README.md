@@ -96,7 +96,9 @@ Para cambiar LinearVelocity y AngularVelocity se utiliza un publisher `/turtle1/
 Por ultimo se utiliza `rosshutdown` se cierra el nodo global y, si se está ejecutando, el maestro ROS. Cuando termine de trabajar con la red ROS, se usa rosshutdown para cerrar las entidades ROS globales creadas por rosinit.
 ### Utilizando Python
 
-Se creó un script de python llamado `myTeleopKey.py` con el cuel se puede controlar la posición y orientación de la tortuga:
+#### Creación del script
+
+Se creó un script de python llamado `myTeleopKey.py` con el cual se puede controlar la posición y orientación de la tortuga:
 
 - Tecla W: Hacia adelante
 - Tecla S: Hacia atras
@@ -105,8 +107,13 @@ Se creó un script de python llamado `myTeleopKey.py` con el cuel se puede contr
 - Tecla R: Salto al centro
 - Tecla espacio: Giro de 180 grados
 
+Se usaron los topicos `turtle1/cmd_vel`, `turtle1/teleport_absolute`, `turtle1/teleport_relative`.
 
+Las funciones que comprende el script son `getkey()`, `toCenter()`, `giro180()` y `pubVel()`. Estas son usadas en el main para lograr el objetivo de la siguiente manera:
 
+```
+Codigo
+```
 
 ## Resultados:
 ### Conexión de ROS con Matlab
