@@ -154,8 +154,7 @@ Al hacer la prueba del script `myTeleopKey.py` se logró el resultado como lo mu
 
 ## Análisis
 ### Conexión de ROS con Matlab
-Se puede observar que se logro una conexión de matlab con ROS sin mucha complejidad, gracias a las herramientas que otorga el ROS toolbox. Se pudo crear desde matlab el publisher, el subscriber, y utilizar los services a partir de la creación del cliente, ademas de la conexión entre cliente y servidor.
-Está fácil integración entre Matlab y ROS facilitaran proyectos más complejos con el uso de las herramientas matemáticas y de simulación que aporta matlab.
+Se pudo crear desde matlab el publisher, el subscriber, y utilizar los services a partir de la creación del cliente, ademas de la conexión entre cliente y servidor.
 Para realizar algunas funciones se tuvo que usar `pause()` esto para poder capturar mensajes y para poder hacer la conexión entre cliente y servidor.
 
 ### Utilizando Python
@@ -163,5 +162,5 @@ Para realizar algunas funciones se tuvo que usar `pause()` esto para poder captu
 Mediante un script en Python es posible comunicarse con los nodos de ROS y así comunicarse desde el teclado para controlar la tortuga. Son bastante directos los cambios para hacer control. Se pued ecalibar bien el tiempo que la tortuga avanza o gira así como su cantidad. Fue muy importante entender cómo leer comandos desde el teclado.
 
 ## Conclusiones
-
-
+Se puede observar que se logro una conexión de matlab con ROS sin mucha complejidad, gracias a las herramientas que otorga el ROS toolbox. 
+Está fácil integración entre Matlab y ROS facilitaran proyectos más complejos con el uso de las herramientas matemáticas y de simulación que aporta matlab.
