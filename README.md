@@ -8,11 +8,11 @@ Para este laboratorio se utilizo una instalacion nativa de Ubuntu version 20.04 
 R2021b, ROS toolbox, Python y Visual Code. 
 ### Conexión de ROS con Matlab
 Se lanzan 2 terminales. En la primera terminal se escribe el comando:
-```matlab
+```
 roscore
 ```
 en la segunda se escribe:
-```matlab
+```
 rosrun turtlesim turtlesim_node
 ```
 #### Creación de publisher
@@ -92,6 +92,10 @@ pause(1)
 rosshutdown;
 ```
 Primero se consulta la lista de sercios disponibles con: `rosservice('list')`. Se crea un cliente que va a utilizar el servicio. Se comprueba que el servidor del servicio este disponible y se espera que el cliente se conecte al servidor.Con `poseMsg = rosmessage(poseClient)` se crea el mensaje que va a recibir el cliente. Luego se definen los valores de la pose (X,Y,theta). Y se envia el mensaje al servicio con `call(poseClient,poseMsg,"Timeout",3)`.
-Para cambiar LienarVelocity y AngularVelocity se utiliza un publisher `/turtle1/cmd_vel`
+Para cambiar LinearVelocity y AngularVelocity se utiliza un publisher `/turtle1/cmd_vel`
+Por ultimo se utiliza `rosshutdown` se cierra el nodo global y, si se está ejecutando, el maestro ROS. Cuando termine de trabajar con la red ROS, se usa rosshutdown para cerrar las entidades ROS globales creadas por rosinit.
+### Utilizando Python
+
+
 
 
