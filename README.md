@@ -159,6 +159,9 @@ Está fácil integración entre Matlab y ROS facilitaran proyectos más complejo
 Para realizar algunas funciones se tuvo que usar `pause()` esto para poder capturar mensajes y para poder hacer la conexión entre cliente y servidor.
 
 ### Utilizando Python
+
+Mediante un script en Python es posible comunicarse con los nodos de ROS y así comunicarse desde el teclado para controlar la tortuga. Son bastante directos los cambios para hacer control. Se pued ecalibar bien el tiempo que la tortuga avanza o gira así como su cantidad. Fue muy importante entender cómo leer comandos desde el teclado.
+
 ## Conclusiones
 
 
