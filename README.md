@@ -96,6 +96,10 @@ Para cambiar LinearVelocity y AngularVelocity se utiliza un publisher `/turtle1/
 Por ultimo se utiliza `rosshutdown` se cierra el nodo global y, si se está ejecutando, el maestro ROS. Cuando termine de trabajar con la red ROS, se usa rosshutdown para cerrar las entidades ROS globales creadas por rosinit.
 ### Utilizando Python
 
+## Resultados:
+### Conexión de ROS con Matlab
+![Fig.1 comentarios en código sum1bcc_primitive.v](https://github.com/unal-edigital1-2020-1/lab01-sumador-grupo-04/blob/master/Captura%20de%20Pantalla%202020-03-23%20a%20la(s)%2016.08.56.png)
+### Utilizando Python
 
 
 
