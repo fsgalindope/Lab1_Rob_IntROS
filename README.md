@@ -112,7 +112,29 @@ Se usaron los topicos `turtle1/cmd_vel`, `turtle1/teleport_absolute`, `turtle1/t
 Las funciones que comprende el script son `getkey()`, `toCenter()`, `giro180()` y `pubVel()`. Estas son usadas en el main para lograr el objetivo de la siguiente manera:
 
 ```
-Codigo
+if __name__ == "__main__":
+    while 1:
+        letter = getkey()
+        if(letter ==b'w' or letter == b'W'):
+            print('Adelante')
+            pubVel(0.4,0,0.05)
+        elif(letter ==b's' or letter == b'S'):
+            print('Atrás')
+            pubVel(-0.4,0,0.05)
+        elif(letter ==b'd' or letter == b'D'):
+            print('Giro derecha')
+            pubVel(0,-0.2,0.05)
+        elif(letter ==b'a' or letter == b'A'):
+            print('Giro izquierda')
+            pubVel(0,0.2,0.05)
+        elif(letter ==b'r' or letter == b'R'):
+            print('Al centro')
+            toCenter()
+        elif(letter ==b' '):
+            print('Giro 180')
+            giro180()
+        if (letter==b'\x1b'):
+            break
 ```
 
 ## Resultados:
