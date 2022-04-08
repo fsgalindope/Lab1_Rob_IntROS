@@ -102,7 +102,7 @@ Tras correr el primer script `conexionMatlab.m` Se obtiene lo que se ve en la im
 ![Fig.1 image1.v](https://github.com/fsgalindope/Lab1_Rob_IntROS/blob/main/recursos/image1.png)
 En la siguiente imagen se ve como se obtiene informacion del topico `turtle1/pose` despues de hacer la subscripcion obteniendo informacion de la pose (X,Y,Theta,AngularVelocity, LinearVelocity). 
 ![Fig.2 image2.v](https://github.com/fsgalindope/Lab1_Rob_IntROS/blob/main/recursos/image2.png)
-En la siguiente imagen se puede observar la pocision de la tortuga despues de correr el tercer script. Donde primero se cambio la pocision (X,Y,Theta) y despues se cambio las velocidades(AngularVelocity, LinearVelocity). 
+En la siguiente imagen se puede observar la posicion de la tortuga despues de correr el tercer script. Donde primero se cambio la posicion (X,Y,Theta) y despues se cambio las velocidades(AngularVelocity, LinearVelocity). 
 ![Fig.3 image3.v](https://github.com/fsgalindope/Lab1_Rob_IntROS/blob/main/recursos/image3.png)
 ### Utilizando Python
 
