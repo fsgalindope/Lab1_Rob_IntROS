@@ -108,7 +108,9 @@ En la siguiente imagen se puede observar la posicion de la tortuga despues de co
 
 ## Analisis
 ### Conexión de ROS con Matlab
-Se opuede observar que se logro una conexion de matlab con ROS sin mucha complejidad, gracias a las herramientas que otorga el ROS toolbox. Se pudo crear desde matlab el publisher, el subscriber, y utilizar los services apartir de la creacion del cliente, ademas de la conexion entre cliente y servidor.  
+Se puede observar que se logro una conexion de matlab con ROS sin mucha complejidad, gracias a las herramientas que otorga el ROS toolbox. Se pudo crear desde matlab el publisher, el subscriber, y utilizar los services apartir de la creacion del cliente, ademas de la conexion entre cliente y servidor.
+Está facil integración entre Matlab y ROS facilitaran proyectos más complejos con el uso de las herramientas matematicas y de simulacion que aporta matlab. 
+
 ### Utilizando Python
 ## Conclusiones
 
