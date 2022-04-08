@@ -166,3 +166,6 @@ Mediante un script en Python es posible comunicarse con los nodos de ROS y así 
 - Está fácil integración entre Matlab y ROS facilitaran proyectos más complejos con el uso de las herramientas matemáticas y de simulación que aporta matlab.
 - Son bastante directos los cambios para hacer control a través de scripts de python.
 - Fue muy importante entender cómo leer comandos desde el teclado.
+
+
+Copia...
