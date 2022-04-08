@@ -2,7 +2,7 @@
 Laboratorio 1: Introducción ROS
 ## Integrantes:
 - Fabian Steven Galindo Peña
-- Christian Cuestas
+- Christian Camilo Cuestas Ibáñez
 ## Metodología:
 Para este laboratorio se utilizo una instalación nativa de Ubuntu versión 20.04 LTS, se instalo ROS Noetic, se utilizo MATLAB
 R2021b, ROS toolbox, Python y Visual Code. 
@@ -159,8 +159,10 @@ Para realizar algunas funciones se tuvo que usar `pause()` esto para poder captu
 
 ### Utilizando Python
 
-Mediante un script en Python es posible comunicarse con los nodos de ROS y así comunicarse desde el teclado para controlar la tortuga. Son bastante directos los cambios para hacer control. Se pued ecalibar bien el tiempo que la tortuga avanza o gira así como su cantidad. Fue muy importante entender cómo leer comandos desde el teclado.
+Mediante un script en Python es posible comunicarse con los nodos de ROS y así comunicarse desde el teclado para controlar la tortuga. Se puede ecalibar bien el tiempo que la tortuga avanza o gira así como su cantidad. Fue muy importante entender cómo leer comandos desde el teclado.
 
 ## Conclusiones
-Se puede observar que se logro una conexión de matlab con ROS sin mucha complejidad, gracias a las herramientas que otorga el ROS toolbox. 
-Está fácil integración entre Matlab y ROS facilitaran proyectos más complejos con el uso de las herramientas matemáticas y de simulación que aporta matlab.
+- Se puede observar que se logro una conexión de matlab con ROS sin mucha complejidad, gracias a las herramientas que otorga el ROS toolbox. 
+- Está fácil integración entre Matlab y ROS facilitaran proyectos más complejos con el uso de las herramientas matemáticas y de simulación que aporta matlab.
+- Son bastante directos los cambios para hacer control a través de scripts de python.
+- Fue muy importante entender cómo leer comandos desde el teclado.
