@@ -98,7 +98,7 @@ Por ultimo se utiliza `rosshutdown` se cierra el nodo global y, si se está ejec
 
 ## Resultados:
 ### Conexión de ROS con Matlab
-Tras correr el primer script `conexionMatlab.m` Se obtiene lo que se ve en la imagen1 ,donde se puede ver que la tortuga realiza el movimiento en X gracias a que despues de la conexion en matlab se cambia el valor de la velocidad linear en X.
+Tras correr el primer script `conexionMatlab.m` Se obtiene lo que se ve en la imagen1 ,donde se puede ver que la tortuga realiza el movimiento en X gracias a que despues de la conexion en matlab se cambia el valor de la velocidad lineal en X.
 ![Fig.1 image1.v](https://github.com/fsgalindope/Lab1_Rob_IntROS/blob/main/recursos/image1.png)
 En la siguiente imagen se ve como se obtiene informacion del topico `turtle1/pose` despues de hacer la subscripcion obteniendo informacion de la pose (X,Y,Theta,AngularVelocity, LinearVelocity). 
 ![Fig.2 image2.v](https://github.com/fsgalindope/Lab1_Rob_IntROS/blob/main/recursos/image2.png)
@@ -106,5 +106,9 @@ En la siguiente imagen se puede observar la pocision de la tortuga despues de co
 ![Fig.3 image3.v](https://github.com/fsgalindope/Lab1_Rob_IntROS/blob/main/recursos/image3.png)
 ### Utilizando Python
 
+## Analisis
+### Conexión de ROS con Matlab
+### Utilizando Python
+## Conclusiones
 
 
